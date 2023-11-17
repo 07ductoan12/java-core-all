@@ -16,6 +16,8 @@ public class StringVsStringBuffer {
     }
 
     public static void main(String[] args) {
+
+        // Performance Test of String and StringBuffer
         long startTime = System.currentTimeMillis();
         concatWithString();
         System.out.println("Time taken by Concating with String: " + (System.currentTimeMillis() - startTime) + "ms");
